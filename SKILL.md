@@ -1,13 +1,13 @@
 ---
 name: windows-agent-guardrails
-description: Safer PowerShell and Windows CLI execution for coding agents. Use this skill when terminal work on Windows is likely to fail due to quoting, path handling, shell mismatch, missing tool discovery, inline Python encoding, search and traversal shape, archive operations, or repeated retries of the same broken command.
+description: Safer PowerShell and Windows CLI execution for AI agents and terminal-capable assistants. Use this skill when Windows terminal work is likely to fail due to quoting, path handling, shell mismatch, missing tool discovery, inline Python encoding, search and traversal shape, archive operations, or repeated retries of the same broken command.
 ---
 
 # Windows Agent Guardrails
 
 ## Purpose
 
-Standardize terminal execution on Windows so a coding agent chooses safer command shapes before running them.
+Standardize terminal execution on Windows so an AI agent or terminal-capable assistant chooses safer command shapes before running them.
 
 This skill combines two layers:
 
@@ -15,6 +15,20 @@ This skill combines two layers:
 - reusable validated command patterns for recurring high-risk scenarios
 
 The goal is to reduce mechanical terminal failures, not to replace product logic or domain reasoning.
+
+## Good Fit
+
+This skill fits terminal-capable workflows built around systems such as:
+
+- Codex
+- OpenClaw
+- Claude Code
+- OpenCode
+- Cline
+- Goose
+- other Windows-capable agent systems with terminal or tool execution
+
+It can also be relevant to tool-enabled ChatGPT or Gemini workflows on Windows when the workflow actually reaches terminal execution.
 
 ## When To Use
 
@@ -78,6 +92,7 @@ Use this skill when a task on Windows involves:
 - This skill does not store full command history.
 - This skill is not a Git advanced workflow pack.
 - This skill does not assume a specific workspace layout or username.
+- Pure web-only assistants without terminal or tool execution are not the main target.
 
 ## Examples
 

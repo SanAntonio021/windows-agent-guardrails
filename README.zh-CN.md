@@ -1,6 +1,6 @@
 # windows-agent-guardrails
 
-面向编码智能体的更安全的 PowerShell 和 Windows CLI 执行技能。
+面向 AI agents 和具备终端能力助手的更安全的 PowerShell 与 Windows CLI 执行技能。
 
 [English](README.md)
 
@@ -19,6 +19,20 @@
 
 - PowerShell / Windows CLI 的静态护栏
 - 面向高风险场景的可复用命令模式库
+
+## 适合哪些 Agent
+
+这个 skill 很适合这类具备终端能力的工作流：
+
+- Codex
+- OpenClaw
+- Claude Code
+- OpenCode
+- Cline
+- Goose
+- 其他能在 Windows 上实际执行终端或工具调用的 agent 系统
+
+如果是带工具能力、并且工作流最终会落到 Windows 终端执行上的 ChatGPT 或 Gemini，也同样相关。
 
 ## 什么时候该用它
 
@@ -99,6 +113,7 @@ npx skills add SanAntonio021/windows-agent-guardrails@windows-agent-guardrails
 - 不包含用户私有路径
 - 不保存完整命令历史
 - `v1` 不覆盖 Bash 或 WSL 场景
+- 不面向完全没有终端或工具执行能力的纯网页助手
 
 ## 当前状态
 

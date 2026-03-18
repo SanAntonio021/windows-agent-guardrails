@@ -1,6 +1,6 @@
 # windows-agent-guardrails
 
-Safer PowerShell and Windows CLI execution for coding agents.
+Safer PowerShell and Windows CLI execution for AI agents and terminal-capable assistants.
 
 [中文说明](README.zh-CN.md)
 
@@ -19,6 +19,20 @@ It combines two layers:
 
 - static guardrails for PowerShell and Windows CLI execution
 - reusable validated command patterns for recurring high-risk scenarios
+
+## Good Fit
+
+This skill works well with terminal-capable workflows built around:
+
+- Codex
+- OpenClaw
+- Claude Code
+- OpenCode
+- Cline
+- Goose
+- similar agent systems that can actually execute terminal or tool actions on Windows
+
+It can also be useful in tool-enabled ChatGPT or Gemini workflows on Windows, but only when the workflow genuinely reaches terminal execution.
 
 ## When To Use It
 
@@ -98,6 +112,7 @@ npx skills add SanAntonio021/windows-agent-guardrails@windows-agent-guardrails
 - no user-specific paths
 - no full command-history storage
 - no Bash or WSL guidance in v1
+- not aimed at pure web-only assistants with no terminal or tool execution
 
 ## Status
 
