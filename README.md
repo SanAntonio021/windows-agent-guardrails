@@ -2,6 +2,8 @@
 
 Safer PowerShell and Windows CLI execution for coding agents.
 
+[中文说明](README.zh-CN.md)
+
 ## What This Skill Does
 
 `windows-agent-guardrails` is a Windows-first skill for terminal work that tends to fail for mechanical reasons:
@@ -80,7 +82,7 @@ See:
 ## Install
 
 ```bash
-npx skills add <owner/repo@windows-agent-guardrails>
+npx skills add SanAntonio021/windows-agent-guardrails@windows-agent-guardrails
 ```
 
 ## Environment
@@ -99,6 +101,6 @@ npx skills add <owner/repo@windows-agent-guardrails>
 
 ## Status
 
-This repository is prepared as a public v0.1.0 skill draft.
+This repository is published as a public v0.1.0 skill.
 
-Before publishing, choose a license and replace the install placeholder with the final GitHub owner and repo name.
+Current license: [MIT](LICENSE)
