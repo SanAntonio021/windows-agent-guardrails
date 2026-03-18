@@ -1,8 +1,11 @@
 # windows-agent-guardrails
 
-面向 AI agents 和具备终端能力助手的更安全的 PowerShell 与 Windows CLI 执行技能。
+一个面向 Windows 的终端执行护栏技能，适用于 AI agents 和具备终端能力的助手。
+
+它通过可复用命令模式，提前降低 PowerShell 和 CLI 在引号、工具发现、UTF-8 内联 Python、搜索遍历和文件操作上的常见失败率。
 
 [English](README.md)
+[Marketplace Copy](MARKETPLACE_COPY.md)
 
 ## 这个 Skill 是做什么的
 

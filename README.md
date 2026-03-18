@@ -1,8 +1,11 @@
 # windows-agent-guardrails
 
-Safer PowerShell and Windows CLI execution for AI agents and terminal-capable assistants.
+Windows-first guardrails for AI agents and terminal-capable assistants.
+
+Prevent common PowerShell and CLI failures before execution with reusable command patterns for quoting, tool discovery, UTF-8 inline Python, search, traversal, and file operations.
 
 [中文说明](README.zh-CN.md)
+[Marketplace Copy](MARKETPLACE_COPY.md)
 
 ## What This Skill Does
 
